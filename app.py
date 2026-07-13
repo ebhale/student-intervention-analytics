@@ -168,6 +168,16 @@ def home():
         "all",
     )
 
+    selected_school = request.args.get(
+        "school",
+        "all",
+    )
+
+    student_id_search = request.args.get(
+        "student_id",
+        "",
+    ).strip()
+
     try:
         minimum_score = int(
             request.args.get("minimum_score", 0)
@@ -175,9 +185,16 @@ def home():
     except ValueError:
         minimum_score = 0
 
+    schools = sorted({
+        student[1]
+        for student in students
+    })
+
     filtered_students = []
 
     for student in students:
+        student_id = str(student[0])
+        school = student[1]
         grade_level = str(student[3])
         priority_score = student[8]
 
@@ -186,9 +203,24 @@ def home():
             or grade_level == selected_grade_level
         )
 
+        school_matches = (
+            selected_school == "all"
+            or school == selected_school
+        )
+
+        student_id_matches = (
+            not student_id_search
+            or student_id_search.lower() in student_id.lower()
+        )
+
         score_matches = priority_score >= minimum_score
 
-        if grade_matches and score_matches:
+        if (
+            grade_matches
+            and school_matches
+            and student_id_matches
+            and score_matches
+        ):
             filtered_students.append(student)
 
     return render_template(
@@ -196,7 +228,10 @@ def home():
         students=filtered_students,
         student_count=len(filtered_students),
         selected_grade_level=selected_grade_level,
+        selected_school=selected_school,
+        student_id_search=student_id_search,
         minimum_score=minimum_score,
+        schools=schools,
     )
 
 
@@ -282,4 +317,9 @@ def upload_csv():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(
+        host="0.0.0.0",
+        port=5000,
+        debug=True,
+    )
+    
