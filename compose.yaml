@@ -21,6 +21,9 @@ services:
       DB_PORT: 5432
     ports:
       - "5000:5000"
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
     depends_on:
       - db
 
