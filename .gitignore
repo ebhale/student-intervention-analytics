@@ -5,3 +5,4 @@ __pycache__/
 data/archive/
 reports/archive/
 ~$*.pbix
+credit_recovery_backup.sql

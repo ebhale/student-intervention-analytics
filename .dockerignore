@@ -6,3 +6,4 @@ __pycache__
 .gitignore
 data/archive
 reports/archive
+credit_recovery_backup.sql
