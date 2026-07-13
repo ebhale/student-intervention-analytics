@@ -6,3 +6,4 @@ data/archive/
 reports/archive/
 ~$*.pbix
 credit_recovery_backup.sql
+credit_recovery_backup*.sql

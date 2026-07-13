@@ -1,0 +1,850 @@
+student_id,school,course,current_progress,weekly_progress,grade,days_since_login,courses_remaining,grade_level
+S1001,Windermere High,Geometry,41,9,76,4,1,10
+S1002,Timber Creek High,English 3,43,8,79,8,1,11
+S1003,Edgewater High,Geometry,90,16,99,2,3,12
+S1004,Windermere High,English 1,74,9,68,9,2,9
+S1005,Olympia High,Government,16,11,68,8,2,12
+S1006,Horizon High,Algebra 1,40,4,72,5,1,9
+S1007,University High,English 1,48,6,60,17,2,9
+S1008,Horizon High,Algebra 2,85,9,63,7,1,11
+S1009,Oak Ridge High,Government,85,11,70,3,1,12
+S1010,Cypress Creek High,Economics,64,23,73,3,1,12
+S1011,Lake Buena Vista High,Algebra 2,43,3,71,14,2,11
+S1012,Lake Nona High,Algebra 2,46,14,87,0,1,11
+S1013,Edgewater High,Government,84,6,64,10,1,12
+S1014,Olympia High,Biology,23,4,70,10,2,10
+S1015,Ocoee High,Biology,60,10,74,4,1,10
+S1016,Innovation High,Government,27,18,91,3,1,12
+S1017,Olympia High,U.S. History,76,19,87,2,4,11
+S1018,Ocoee High,U.S. History,58,17,88,2,1,11
+S1019,Horizon High,Geometry,36,14,87,4,3,10
+S1020,Freedom High,World History,97,10,85,4,2,10
+S1021,Freedom High,English 2,32,3,63,25,2,10
+S1022,Ocoee High,Economics,68,15,74,4,2,11
+S1023,West Orange High,Algebra 2,37,5,43,20,2,11
+S1024,Freedom High,English 2,35,10,77,3,2,10
+S1025,Freedom High,Economics,32,14,99,3,3,12
+S1026,Dr. Phillips High,Algebra 2,57,17,87,3,1,12
+S1027,Lake Nona High,Geometry,29,0,58,30,3,12
+S1028,Lake Nona High,Geometry,27,10,76,4,2,10
+S1029,Horizon High,Geometry,84,11,76,10,1,12
+S1030,Winter Park High,Biology,30,4,63,25,1,9
+S1031,Oak Ridge High,Geometry,40,6,60,21,2,10
+S1032,Oak Ridge High,World History,97,6,75,0,1,10
+S1033,Cypress Creek High,English 1,54,19,87,3,2,9
+S1034,West Orange High,Economics,100,16,88,2,1,12
+S1035,Oak Ridge High,U.S. History,58,12,91,1,1,11
+S1036,Horizon High,Geometry,49,5,43,29,4,12
+S1037,Windermere High,Economics,0,3,64,17,2,11
+S1038,Colonial High,Geometry,57,18,91,2,1,12
+S1039,Lake Buena Vista High,World History,27,4,59,23,2,10
+S1040,University High,Geometry,97,6,80,4,3,10
+S1041,East River High,Algebra 2,60,4,81,8,1,11
+S1042,Evans High,Economics,14,2,64,20,1,12
+S1043,Innovation High,Economics,45,19,93,2,3,12
+S1044,Colonial High,Algebra 2,52,24,70,1,4,11
+S1045,Lake Buena Vista High,Algebra 2,52,23,83,0,3,11
+S1046,Winter Park High,Economics,29,4,44,16,1,12
+S1047,Edgewater High,English 4,39,8,72,10,1,12
+S1048,Winter Park High,Algebra 1,60,22,85,4,1,9
+S1049,Timber Creek High,Economics,29,4,79,7,2,11
+S1050,Jones High,English 4,28,22,89,0,3,12
+S1051,Lake Nona High,Economics,51,11,77,3,1,11
+S1052,Timber Creek High,Geometry,84,12,86,0,1,10
+S1053,Boone High,Algebra 2,41,5,74,4,1,12
+S1054,Freedom High,Geometry,39,7,66,7,4,12
+S1055,Lake Nona High,English 4,52,6,72,3,1,12
+S1056,Freedom High,Biology,34,6,55,11,1,10
+S1057,East River High,English 3,61,22,99,4,2,11
+S1058,Windermere High,English 2,2,3,58,21,1,10
+S1059,Dr. Phillips High,Economics,49,5,62,10,2,11
+S1060,West Orange High,English 1,41,7,68,6,4,9
+S1061,Horizon High,U.S. History,84,17,80,2,3,11
+S1062,West Orange High,Economics,38,11,75,1,1,11
+S1063,Lake Buena Vista High,English 4,38,19,98,3,1,12
+S1064,Oak Ridge High,World History,41,14,99,2,1,10
+S1065,Horizon High,Geometry,80,14,73,3,3,12
+S1066,Boone High,English 4,65,0,51,8,1,12
+S1067,Jones High,Economics,66,7,81,6,3,11
+S1068,Lake Buena Vista High,Geometry,58,8,73,10,2,10
+S1069,University High,World History,54,24,86,1,2,9
+S1070,Boone High,Algebra 2,74,15,76,0,1,12
+S1071,Ocoee High,English 2,57,9,71,9,1,10
+S1072,Oak Ridge High,World History,47,6,50,29,1,10
+S1073,Apopka High,U.S. History,12,4,71,4,1,11
+S1074,Wekiva High,English 4,59,8,64,5,3,12
+S1075,Jones High,Biology,80,16,74,2,1,9
+S1076,Oak Ridge High,Algebra 2,13,1,61,30,1,11
+S1077,Lake Nona High,Algebra 2,42,22,87,1,1,12
+S1078,Timber Creek High,Algebra 1,1,2,45,21,2,9
+S1079,Ocoee High,Government,22,1,52,19,1,12
+S1080,Colonial High,Biology,7,1,42,10,1,9
+S1081,Wekiva High,Geometry,100,17,99,2,1,10
+S1082,Colonial High,Algebra 2,16,4,65,20,2,12
+S1083,Lake Nona High,Economics,33,3,57,29,2,12
+S1084,Timber Creek High,English 3,31,8,72,10,1,11
+S1085,Wekiva High,English 4,61,1,53,18,2,12
+S1086,Olympia High,Algebra 1,66,9,76,9,1,9
+S1087,Wekiva High,Algebra 2,39,10,97,1,2,11
+S1088,Wekiva High,Algebra 1,54,20,73,3,1,9
+S1089,Innovation High,Biology,66,22,85,3,1,10
+S1090,Wekiva High,Algebra 2,35,2,52,17,2,11
+S1091,Freedom High,English 1,54,20,96,2,1,9
+S1092,Dr. Phillips High,English 1,1,1,61,23,1,9
+S1093,Winter Park High,Geometry,32,4,81,10,1,10
+S1094,Lake Buena Vista High,Economics,56,21,80,4,2,11
+S1095,Innovation High,Economics,7,4,55,16,1,12
+S1096,Boone High,Biology,76,20,96,0,1,9
+S1097,University High,U.S. History,94,8,75,1,2,11
+S1098,Dr. Phillips High,Government,66,18,81,2,1,12
+S1099,Apopka High,English 1,47,24,95,2,1,9
+S1100,Wekiva High,Algebra 1,36,21,73,0,1,9
+S1101,Timber Creek High,Biology,46,13,79,1,1,10
+S1102,Boone High,U.S. History,58,5,76,6,4,11
+S1103,Edgewater High,World History,99,17,96,5,1,10
+S1104,Boone High,English 1,91,9,97,2,1,9
+S1105,Olympia High,Algebra 2,30,7,74,5,1,11
+S1106,University High,Economics,38,12,79,2,1,11
+S1107,West Orange High,Government,58,8,74,5,1,12
+S1108,Timber Creek High,Biology,94,5,72,0,1,9
+S1109,Oak Ridge High,Biology,63,21,86,0,1,9
+S1110,Edgewater High,World History,77,20,74,2,2,10
+S1111,Apopka High,English 2,93,9,93,3,2,10
+S1112,Boone High,Biology,49,1,55,27,1,10
+S1113,Freedom High,Biology,62,10,73,3,2,10
+S1114,Lake Nona High,Economics,52,14,95,1,2,12
+S1115,Apopka High,English 1,99,14,73,1,1,9
+S1116,Innovation High,English 4,84,11,77,4,3,12
+S1117,Boone High,Algebra 2,97,17,91,1,2,11
+S1118,Boone High,English 3,98,6,98,3,1,11
+S1119,Evans High,Algebra 2,29,24,72,3,1,12
+S1120,Olympia High,Algebra 2,46,11,75,0,3,11
+S1121,West Orange High,U.S. History,28,17,88,4,1,11
+S1122,Oak Ridge High,Geometry,35,10,81,2,2,10
+S1123,Edgewater High,Algebra 2,33,9,79,10,1,11
+S1124,Olympia High,Geometry,13,7,68,10,1,12
+S1125,Evans High,Algebra 2,71,10,66,8,1,11
+S1126,Oak Ridge High,Government,23,7,78,4,3,12
+S1127,Timber Creek High,U.S. History,64,2,49,8,2,11
+S1128,Innovation High,Economics,71,5,64,6,3,11
+S1129,Timber Creek High,Geometry,62,12,70,0,2,10
+S1130,Lake Buena Vista High,English 1,100,20,90,0,1,9
+S1131,East River High,English 4,69,6,80,8,1,12
+S1132,Horizon High,Economics,52,6,62,5,4,11
+S1133,Jones High,U.S. History,49,3,49,23,2,11
+S1134,Jones High,U.S. History,51,7,62,10,1,11
+S1135,Apopka High,U.S. History,68,21,80,4,2,11
+S1136,Wekiva High,Geometry,69,24,83,0,4,10
+S1137,Innovation High,Economics,35,4,75,5,1,11
+S1138,Colonial High,Biology,100,10,95,2,1,9
+S1139,Boone High,English 4,45,1,68,30,1,12
+S1140,Jones High,Biology,37,0,44,12,1,10
+S1141,Ocoee High,English 1,36,2,54,22,1,9
+S1142,Horizon High,English 1,78,22,87,0,3,9
+S1143,Freedom High,Economics,36,15,81,3,4,11
+S1144,Lake Nona High,Economics,53,6,56,19,2,11
+S1145,Olympia High,English 3,99,8,78,2,2,11
+S1146,Evans High,Biology,53,10,89,0,1,9
+S1147,West Orange High,Geometry,33,4,75,9,2,12
+S1148,University High,Geometry,96,15,89,1,2,10
+S1149,Freedom High,English 4,47,11,66,6,2,12
+S1150,Wekiva High,Algebra 2,53,5,53,10,1,12
+S1151,Dr. Phillips High,Algebra 2,100,16,78,2,1,12
+S1152,Wekiva High,World History,39,19,95,0,1,9
+S1153,Horizon High,U.S. History,97,18,81,1,1,11
+S1154,Edgewater High,Government,36,13,85,2,1,12
+S1155,Innovation High,World History,33,14,88,4,3,10
+S1156,Jones High,Algebra 2,61,10,96,3,3,12
+S1157,Edgewater High,Biology,44,3,65,12,1,10
+S1158,Boone High,Government,81,9,71,3,1,12
+S1159,Timber Creek High,Economics,41,10,76,10,2,12
+S1160,Jones High,English 3,20,9,82,6,2,11
+S1161,Windermere High,Geometry,99,11,92,5,1,12
+S1162,Ocoee High,World History,34,13,97,1,1,9
+S1163,Edgewater High,Algebra 1,52,7,71,6,2,9
+S1164,Evans High,English 3,95,6,83,1,2,11
+S1165,Innovation High,Government,82,8,69,7,1,12
+S1166,Edgewater High,English 1,86,10,74,0,4,9
+S1167,Cypress Creek High,Economics,46,5,76,9,2,11
+S1168,West Orange High,English 3,7,1,57,17,2,11
+S1169,Windermere High,English 1,46,15,86,0,2,9
+S1170,Horizon High,Geometry,39,10,78,2,2,10
+S1171,Innovation High,Economics,30,1,48,17,1,12
+S1172,Horizon High,Algebra 2,81,6,70,8,1,11
+S1173,West Orange High,Economics,81,4,69,5,2,11
+S1174,Olympia High,World History,15,6,70,7,2,10
+S1175,West Orange High,English 1,48,6,66,23,1,9
+S1176,Oak Ridge High,Biology,16,11,68,3,2,9
+S1177,Jones High,Geometry,9,1,70,12,2,10
+S1178,Ocoee High,Geometry,87,23,86,1,1,10
+S1179,Edgewater High,Algebra 1,45,6,65,4,1,9
+S1180,Colonial High,English 2,85,6,64,10,1,10
+S1181,West Orange High,Biology,46,6,54,23,1,10
+S1182,Horizon High,Economics,42,14,95,3,3,11
+S1183,Innovation High,English 2,49,0,66,17,2,10
+S1184,Ocoee High,Biology,19,3,65,30,1,10
+S1185,Ocoee High,Algebra 2,25,11,80,1,1,11
+S1186,Windermere High,English 4,38,13,73,1,1,12
+S1187,Colonial High,English 4,79,13,99,2,2,12
+S1188,Jones High,Economics,91,16,70,1,3,11
+S1189,Innovation High,Biology,96,11,90,2,1,9
+S1190,Horizon High,World History,28,17,87,2,2,10
+S1191,Oak Ridge High,Biology,60,24,72,0,2,10
+S1192,Windermere High,Economics,37,18,74,1,1,11
+S1193,Colonial High,Biology,92,16,76,0,1,10
+S1194,Horizon High,Economics,39,1,62,10,2,12
+S1195,Boone High,World History,33,17,93,0,3,9
+S1196,East River High,World History,40,23,78,2,1,10
+S1197,East River High,U.S. History,27,10,95,0,4,11
+S1198,Ocoee High,Algebra 1,16,1,64,12,2,9
+S1199,West Orange High,English 2,93,8,77,0,1,10
+S1200,East River High,Government,94,19,83,5,1,12
+S1201,Windermere High,Economics,100,10,84,1,1,12
+S1202,Lake Nona High,World History,1,5,44,20,1,9
+S1203,Lake Nona High,Algebra 2,100,5,97,3,1,11
+S1204,Freedom High,World History,38,19,86,1,2,9
+S1205,Cypress Creek High,Biology,60,15,82,3,2,10
+S1206,University High,Algebra 2,42,12,76,2,1,11
+S1207,Boone High,World History,24,1,57,22,2,9
+S1208,Ocoee High,Economics,26,5,76,6,1,12
+S1209,Lake Nona High,Biology,81,15,92,1,1,10
+S1210,Dr. Phillips High,Biology,26,17,88,2,4,10
+S1211,Lake Buena Vista High,Algebra 1,60,16,86,4,3,9
+S1212,Boone High,English 2,70,17,92,3,2,10
+S1213,Ocoee High,English 4,72,18,84,0,1,12
+S1214,East River High,Economics,26,20,90,0,1,12
+S1215,Wekiva High,Government,65,19,83,1,2,12
+S1216,Oak Ridge High,Algebra 2,64,22,70,2,1,11
+S1217,Dr. Phillips High,U.S. History,80,17,76,1,2,11
+S1218,Edgewater High,Algebra 1,91,20,99,0,2,9
+S1219,Horizon High,English 2,1,2,59,21,1,10
+S1220,Winter Park High,Government,21,3,64,21,1,12
+S1221,Jones High,Biology,27,11,91,3,2,9
+S1222,Cypress Creek High,Geometry,62,24,83,3,3,10
+S1223,East River High,Economics,94,18,74,1,2,11
+S1224,Winter Park High,English 2,29,24,100,1,1,10
+S1225,Freedom High,Economics,50,14,75,3,2,12
+S1226,Winter Park High,English 4,26,6,64,7,1,12
+S1227,Timber Creek High,English 1,62,4,65,9,1,9
+S1228,Innovation High,Algebra 1,90,24,79,3,1,9
+S1229,Windermere High,Algebra 1,73,19,91,1,2,9
+S1230,Edgewater High,Geometry,59,11,93,3,1,12
+S1231,Freedom High,Algebra 1,79,4,70,9,1,9
+S1232,Cypress Creek High,English 3,29,12,96,0,1,11
+S1233,University High,Geometry,100,6,80,2,1,12
+S1234,Evans High,Economics,51,4,66,24,1,12
+S1235,Evans High,Biology,52,21,75,0,1,9
+S1236,Cypress Creek High,Government,74,21,85,1,4,12
+S1237,Colonial High,Geometry,38,5,66,15,1,10
+S1238,University High,Government,34,3,42,30,1,12
+S1239,Ocoee High,English 1,48,21,79,1,4,9
+S1240,Boone High,Economics,39,4,64,6,3,12
+S1241,Ocoee High,Geometry,34,22,98,2,1,12
+S1242,Dr. Phillips High,English 4,79,10,81,4,2,12
+S1243,Winter Park High,English 2,98,12,98,0,1,10
+S1244,Cypress Creek High,Algebra 2,90,13,91,3,4,11
+S1245,Cypress Creek High,Government,26,11,71,1,1,12
+S1246,Wekiva High,Economics,41,7,62,5,1,11
+S1247,University High,English 4,16,3,64,21,1,12
+S1248,University High,Economics,95,16,81,5,1,11
+S1249,Oak Ridge High,U.S. History,95,18,81,3,1,11
+S1250,Winter Park High,Algebra 1,48,7,68,9,2,9
+S1251,Timber Creek High,Geometry,57,17,82,4,2,10
+S1252,Colonial High,Algebra 2,40,12,70,2,2,12
+S1253,University High,English 4,21,8,74,6,4,12
+S1254,Freedom High,World History,72,14,84,0,2,10
+S1255,Winter Park High,Government,64,22,95,2,4,12
+S1256,Horizon High,Geometry,1,1,42,26,2,10
+S1257,Lake Nona High,U.S. History,91,14,86,5,1,11
+S1258,Apopka High,Algebra 2,60,5,59,21,2,11
+S1259,Winter Park High,Economics,42,1,52,11,1,12
+S1260,Olympia High,English 3,97,14,89,3,2,11
+S1261,West Orange High,Government,15,5,49,23,3,12
+S1262,Cypress Creek High,English 3,41,6,77,8,1,11
+S1263,Dr. Phillips High,English 1,65,10,93,1,2,9
+S1264,Apopka High,World History,52,10,70,2,3,10
+S1265,Winter Park High,Government,45,6,66,19,2,12
+S1266,Freedom High,Biology,20,8,65,10,2,9
+S1267,Timber Creek High,English 1,49,14,76,2,2,9
+S1268,Apopka High,Algebra 2,56,23,94,4,1,12
+S1269,Winter Park High,World History,80,24,79,1,2,9
+S1270,Wekiva High,English 3,85,20,81,1,1,11
+S1271,Timber Creek High,English 1,29,11,72,2,1,9
+S1272,Windermere High,English 3,48,4,80,5,3,11
+S1273,Jones High,Biology,52,12,74,0,1,10
+S1274,Horizon High,English 4,96,17,98,5,1,12
+S1275,West Orange High,Biology,16,6,41,28,1,10
+S1276,Winter Park High,World History,56,15,97,3,3,10
+S1277,Innovation High,Government,68,8,81,6,1,12
+S1278,Apopka High,World History,41,12,86,1,2,10
+S1279,Timber Creek High,Economics,84,24,92,0,1,11
+S1280,Wekiva High,English 3,58,7,74,6,1,11
+S1281,Winter Park High,Algebra 2,63,13,89,1,2,12
+S1282,Jones High,Biology,8,3,51,24,1,10
+S1283,Apopka High,English 2,35,14,90,1,4,10
+S1284,Boone High,Algebra 2,19,6,76,4,1,12
+S1285,Dr. Phillips High,World History,25,11,70,4,1,10
+S1286,University High,Economics,85,11,83,3,2,12
+S1287,Innovation High,English 2,67,13,75,3,1,10
+S1288,Colonial High,Economics,65,9,70,3,1,11
+S1289,East River High,Algebra 2,88,21,96,1,3,12
+S1290,Winter Park High,World History,39,5,57,20,1,10
+S1291,Edgewater High,Economics,41,15,77,2,3,12
+S1292,Apopka High,Economics,64,15,73,4,3,11
+S1293,Freedom High,Algebra 1,93,5,81,0,1,9
+S1294,Winter Park High,English 3,81,7,67,9,1,11
+S1295,Timber Creek High,Economics,81,14,100,2,2,12
+S1296,Timber Creek High,Geometry,63,5,76,4,1,10
+S1297,University High,English 2,44,22,95,2,2,10
+S1298,Wekiva High,Geometry,10,8,63,7,1,10
+S1299,University High,Government,61,13,80,2,2,12
+S1300,Lake Buena Vista High,Algebra 1,36,19,92,2,2,9
+S1301,Jones High,English 4,33,17,85,4,1,12
+S1302,West Orange High,English 1,28,5,78,3,3,9
+S1303,Ocoee High,English 4,100,10,78,2,1,12
+S1304,Edgewater High,Algebra 1,61,20,89,1,1,9
+S1305,West Orange High,Algebra 2,56,10,86,4,1,11
+S1306,Evans High,Algebra 2,51,21,73,3,2,11
+S1307,Dr. Phillips High,Economics,30,23,93,1,1,12
+S1308,Olympia High,U.S. History,47,16,97,1,2,11
+S1309,Apopka High,U.S. History,38,4,64,8,2,11
+S1310,Boone High,World History,80,5,71,4,1,10
+S1311,Ocoee High,Biology,32,24,84,2,2,9
+S1312,Horizon High,English 4,59,2,67,13,1,12
+S1313,Freedom High,Geometry,78,11,80,8,1,10
+S1314,Windermere High,Geometry,40,5,72,4,3,12
+S1315,Freedom High,Geometry,83,22,85,1,1,12
+S1316,Oak Ridge High,U.S. History,58,11,76,5,1,11
+S1317,Lake Buena Vista High,Geometry,29,4,63,26,4,12
+S1318,Dr. Phillips High,U.S. History,84,19,83,1,3,11
+S1319,Lake Buena Vista High,English 2,58,11,80,2,2,10
+S1320,Colonial High,World History,65,9,81,5,2,9
+S1321,Innovation High,Geometry,42,5,65,8,2,10
+S1322,Timber Creek High,Geometry,50,4,70,22,1,12
+S1323,Boone High,Government,30,17,87,3,2,12
+S1324,Colonial High,Algebra 2,50,11,79,2,1,12
+S1325,Dr. Phillips High,English 4,39,4,40,22,1,12
+S1326,Edgewater High,Algebra 2,49,1,67,21,3,12
+S1327,Lake Buena Vista High,World History,50,23,91,0,1,9
+S1328,Horizon High,English 1,18,4,41,18,1,9
+S1329,Lake Buena Vista High,World History,84,14,92,1,3,10
+S1330,Windermere High,Government,36,9,71,5,1,12
+S1331,Dr. Phillips High,Government,42,10,95,3,1,12
+S1332,East River High,Economics,30,7,82,8,1,12
+S1333,Ocoee High,English 2,42,4,45,28,4,10
+S1334,Freedom High,Biology,54,4,49,26,1,9
+S1335,Winter Park High,Algebra 2,79,21,72,2,1,11
+S1336,Oak Ridge High,Geometry,93,13,98,4,1,10
+S1337,Winter Park High,Biology,14,3,46,21,1,9
+S1338,Lake Buena Vista High,English 3,65,9,79,7,3,11
+S1339,Colonial High,Geometry,19,1,65,24,1,10
+S1340,Winter Park High,Geometry,71,19,79,4,1,10
+S1341,Winter Park High,Algebra 1,11,3,55,10,1,9
+S1342,Apopka High,English 4,59,14,100,0,2,12
+S1343,Boone High,Algebra 2,44,5,59,25,3,12
+S1344,Timber Creek High,Geometry,62,13,88,4,3,10
+S1345,Lake Nona High,Algebra 2,33,5,64,5,1,12
+S1346,Winter Park High,English 4,87,14,100,1,1,12
+S1347,Edgewater High,World History,66,19,93,0,2,9
+S1348,Colonial High,U.S. History,56,12,81,3,1,11
+S1349,Boone High,Government,48,7,68,4,1,12
+S1350,Edgewater High,Algebra 2,39,7,71,5,2,11
+S1351,Evans High,Biology,60,16,72,1,2,9
+S1352,Colonial High,U.S. History,83,23,83,2,1,11
+S1353,Winter Park High,Geometry,91,8,88,5,1,10
+S1354,Jones High,World History,100,12,83,5,1,10
+S1355,Olympia High,Algebra 2,69,24,89,3,1,11
+S1356,Colonial High,Geometry,84,10,86,2,2,10
+S1357,West Orange High,Algebra 2,64,19,71,3,3,11
+S1358,Windermere High,English 4,60,19,100,4,3,12
+S1359,Windermere High,Algebra 2,35,0,60,10,1,12
+S1360,Evans High,World History,59,5,51,24,1,10
+S1361,Innovation High,Economics,80,24,74,2,1,11
+S1362,Freedom High,Algebra 2,61,11,77,0,1,12
+S1363,Apopka High,U.S. History,45,6,49,16,3,11
+S1364,Innovation High,World History,31,4,58,10,1,9
+S1365,Windermere High,U.S. History,41,24,96,4,4,11
+S1366,Jones High,English 2,26,10,76,6,2,10
+S1367,Dr. Phillips High,Geometry,42,12,96,3,2,10
+S1368,Lake Nona High,Government,25,20,76,3,3,12
+S1369,Boone High,English 4,31,4,52,21,1,12
+S1370,Winter Park High,Algebra 2,80,20,92,4,2,11
+S1371,East River High,World History,29,22,70,4,1,9
+S1372,Innovation High,Algebra 1,37,9,73,3,1,9
+S1373,Freedom High,World History,44,20,86,1,2,10
+S1374,Apopka High,Algebra 2,1,2,59,21,1,11
+S1375,Winter Park High,Geometry,50,20,92,4,3,12
+S1376,Oak Ridge High,Geometry,33,6,71,15,1,10
+S1377,Olympia High,English 2,45,4,63,17,3,10
+S1378,West Orange High,Geometry,49,9,69,6,1,12
+S1379,Lake Nona High,English 4,79,15,93,3,2,12
+S1380,Lake Nona High,World History,92,5,93,3,2,10
+S1381,Timber Creek High,U.S. History,80,17,93,1,4,11
+S1382,Lake Buena Vista High,English 4,47,5,69,23,2,12
+S1383,Horizon High,English 2,23,0,50,29,1,10
+S1384,Timber Creek High,Biology,50,6,79,7,2,9
+S1385,Edgewater High,World History,24,3,65,25,3,9
+S1386,Freedom High,Biology,6,5,63,21,3,10
+S1387,Windermere High,English 1,53,3,40,26,1,9
+S1388,Innovation High,Geometry,0,2,58,28,1,10
+S1389,Boone High,Geometry,46,0,57,30,1,10
+S1390,Edgewater High,Geometry,66,10,79,3,3,10
+S1391,Winter Park High,Economics,30,18,70,4,2,12
+S1392,East River High,Biology,53,7,81,5,2,9
+S1393,Lake Nona High,World History,67,19,76,3,2,10
+S1394,Evans High,English 1,83,21,81,0,3,9
+S1395,Freedom High,English 4,80,4,65,9,1,12
+S1396,Horizon High,Biology,42,7,69,10,2,10
+S1397,Wekiva High,Economics,92,8,75,1,3,12
+S1398,Oak Ridge High,Biology,39,19,100,1,1,9
+S1399,Olympia High,Algebra 2,42,10,99,4,2,11
+S1400,Dr. Phillips High,English 2,98,11,100,5,4,10
+S1401,Freedom High,World History,54,22,81,4,1,9
+S1402,Freedom High,Algebra 1,42,10,96,4,4,9
+S1403,Dr. Phillips High,Algebra 2,75,15,71,3,1,12
+S1404,East River High,World History,80,12,80,0,3,10
+S1405,Ocoee High,World History,46,4,64,9,1,10
+S1406,Wekiva High,Algebra 2,79,20,95,2,4,12
+S1407,Boone High,Economics,60,11,84,0,1,12
+S1408,Timber Creek High,Economics,94,9,93,0,1,11
+S1409,Wekiva High,Algebra 1,15,8,68,6,3,9
+S1410,Freedom High,Algebra 2,59,24,75,1,2,12
+S1411,Horizon High,Government,93,17,72,5,3,12
+S1412,Wekiva High,English 1,43,6,73,8,2,9
+S1413,Evans High,Government,58,21,75,2,2,12
+S1414,Lake Buena Vista High,Biology,43,2,65,18,1,9
+S1415,Cypress Creek High,World History,67,4,63,4,1,10
+S1416,Ocoee High,Economics,5,0,45,12,2,12
+S1417,Windermere High,Economics,58,17,82,2,3,11
+S1418,Freedom High,English 3,66,7,78,10,4,11
+S1419,Lake Nona High,English 1,93,17,72,2,3,9
+S1420,Windermere High,Government,63,11,78,0,2,12
+S1421,Colonial High,English 1,44,15,79,3,4,9
+S1422,Colonial High,Geometry,65,8,74,4,3,12
+S1423,Cypress Creek High,Algebra 2,65,15,85,0,2,12
+S1424,Apopka High,World History,37,17,95,1,1,10
+S1425,Jones High,Algebra 2,49,21,86,4,2,12
+S1426,Boone High,Economics,99,17,73,4,1,11
+S1427,Evans High,Geometry,74,23,94,1,3,12
+S1428,Colonial High,Biology,21,4,74,10,1,10
+S1429,Freedom High,Algebra 1,87,12,73,4,1,9
+S1430,Apopka High,English 4,52,10,70,4,1,12
+S1431,Olympia High,World History,79,9,79,7,2,9
+S1432,Cypress Creek High,Economics,99,11,72,4,1,11
+S1433,Timber Creek High,World History,81,10,92,0,2,10
+S1434,Innovation High,Government,36,3,53,17,1,12
+S1435,Winter Park High,Geometry,61,4,80,3,2,10
+S1436,Freedom High,Algebra 2,7,6,68,22,2,11
+S1437,Boone High,Government,55,1,49,25,3,12
+S1438,Evans High,U.S. History,77,6,72,5,2,11
+S1439,Apopka High,Geometry,19,4,78,7,2,10
+S1440,Timber Creek High,Algebra 1,12,2,61,15,1,9
+S1441,Horizon High,World History,87,22,93,4,1,10
+S1442,East River High,Biology,25,10,82,2,2,9
+S1443,West Orange High,Algebra 2,98,9,97,2,3,11
+S1444,Lake Nona High,English 3,57,6,57,24,1,11
+S1445,Timber Creek High,Geometry,93,5,98,5,1,12
+S1446,Boone High,Geometry,19,1,67,30,3,12
+S1447,Boone High,Biology,27,19,80,0,1,9
+S1448,Lake Nona High,Government,98,20,71,1,2,12
+S1449,Wekiva High,English 2,14,6,72,3,1,10
+S1450,Oak Ridge High,Government,26,23,80,0,2,12
+S1451,Freedom High,Geometry,95,16,97,0,1,12
+S1452,University High,English 2,55,4,65,8,2,10
+S1453,Lake Nona High,Government,94,20,98,2,3,12
+S1454,Olympia High,World History,87,12,88,0,3,10
+S1455,Ocoee High,Economics,47,11,66,4,2,12
+S1456,Colonial High,English 3,68,11,98,4,2,11
+S1457,Evans High,Geometry,98,16,76,3,1,12
+S1458,Oak Ridge High,Economics,33,11,71,5,1,11
+S1459,Lake Nona High,English 3,94,8,79,4,2,11
+S1460,Colonial High,Government,91,16,72,5,3,12
+S1461,Jones High,English 4,76,8,64,3,1,12
+S1462,Freedom High,Biology,84,11,89,2,1,9
+S1463,Winter Park High,Biology,45,18,80,2,2,10
+S1464,Timber Creek High,World History,38,3,51,16,2,10
+S1465,Jones High,English 3,36,9,71,9,2,11
+S1466,Horizon High,World History,28,5,71,26,1,9
+S1467,Edgewater High,Economics,94,5,72,5,1,12
+S1468,Evans High,Biology,55,5,51,18,1,10
+S1469,Lake Nona High,English 2,78,15,84,2,1,10
+S1470,Olympia High,Algebra 2,87,17,99,0,1,11
+S1471,West Orange High,Biology,53,7,74,3,1,10
+S1472,West Orange High,World History,57,11,75,0,4,9
+S1473,Wekiva High,English 3,88,21,92,0,1,11
+S1474,Timber Creek High,Algebra 1,96,12,89,2,3,9
+S1475,Colonial High,English 3,27,24,85,0,3,11
+S1476,Lake Buena Vista High,Geometry,71,21,76,0,2,12
+S1477,Evans High,Government,42,5,70,5,1,12
+S1478,Jones High,English 2,47,10,68,7,4,10
+S1479,Ocoee High,English 1,61,13,74,1,1,9
+S1480,Edgewater High,English 1,43,5,70,17,1,9
+S1481,University High,Economics,25,11,80,6,1,11
+S1482,Winter Park High,World History,11,8,67,7,2,10
+S1483,University High,World History,81,9,78,4,1,9
+S1484,Timber Creek High,Economics,75,15,93,1,2,12
+S1485,Cypress Creek High,Biology,72,11,68,4,1,9
+S1486,Edgewater High,Algebra 1,47,10,69,5,1,9
+S1487,Boone High,English 4,76,10,73,8,1,12
+S1488,Lake Buena Vista High,Algebra 2,90,11,70,1,2,11
+S1489,Boone High,English 3,77,11,76,9,1,11
+S1490,Olympia High,Economics,11,5,59,9,4,11
+S1491,Freedom High,English 1,27,16,98,1,3,9
+S1492,Apopka High,Economics,87,16,92,0,2,12
+S1493,Oak Ridge High,Geometry,67,7,82,9,2,12
+S1494,Boone High,Government,67,17,86,1,1,12
+S1495,Windermere High,World History,54,12,78,2,3,9
+S1496,Edgewater High,Algebra 2,96,7,85,0,1,12
+S1497,Windermere High,English 4,85,10,63,10,3,12
+S1498,Apopka High,Algebra 2,73,8,63,8,2,12
+S1499,Innovation High,Geometry,31,11,69,8,3,12
+S1500,Windermere High,Biology,35,11,70,4,3,9
+S1501,Jones High,English 1,33,4,51,17,1,9
+S1502,Jones High,English 3,34,16,70,1,2,11
+S1503,Oak Ridge High,Geometry,40,10,73,9,1,12
+S1504,Windermere High,Algebra 2,65,14,86,1,3,12
+S1505,Oak Ridge High,English 1,51,24,97,2,1,9
+S1506,Dr. Phillips High,Algebra 2,75,13,84,2,2,11
+S1507,University High,Government,30,14,98,3,1,12
+S1508,Boone High,English 1,33,3,49,13,3,9
+S1509,Oak Ridge High,Economics,100,12,85,1,1,12
+S1510,Edgewater High,Biology,47,1,53,8,2,10
+S1511,Timber Creek High,Economics,51,4,70,6,4,12
+S1512,Innovation High,English 3,25,12,90,2,1,11
+S1513,East River High,Biology,79,23,95,1,1,10
+S1514,Olympia High,Biology,31,13,70,1,1,9
+S1515,Wekiva High,English 4,38,6,71,11,3,12
+S1516,Lake Nona High,Government,92,11,92,2,1,12
+S1517,Lake Buena Vista High,Geometry,51,24,89,3,1,10
+S1518,Olympia High,Biology,96,16,93,5,2,10
+S1519,Boone High,U.S. History,70,6,82,9,2,11
+S1520,Dr. Phillips High,English 4,32,24,95,3,4,12
+S1521,Evans High,Biology,65,11,100,3,2,9
+S1522,Wekiva High,Geometry,81,16,75,3,1,10
+S1523,Innovation High,Algebra 2,62,8,69,8,1,12
+S1524,Jones High,Algebra 2,76,20,72,4,3,11
+S1525,Innovation High,Biology,40,23,85,1,1,10
+S1526,Jones High,U.S. History,33,23,80,0,1,11
+S1527,Apopka High,Geometry,71,12,97,1,4,10
+S1528,West Orange High,Geometry,87,12,70,3,1,10
+S1529,Wekiva High,English 4,90,10,99,4,1,12
+S1530,Evans High,World History,63,19,73,2,1,9
+S1531,Colonial High,Geometry,13,4,63,9,1,12
+S1532,Freedom High,World History,33,23,84,2,2,10
+S1533,Freedom High,World History,29,22,96,2,1,10
+S1534,Freedom High,Geometry,73,7,79,7,4,10
+S1535,University High,English 2,30,17,72,2,1,10
+S1536,Lake Buena Vista High,World History,59,6,52,24,1,10
+S1537,Horizon High,Algebra 2,85,9,71,6,2,11
+S1538,Winter Park High,World History,37,16,97,1,2,10
+S1539,Lake Buena Vista High,Geometry,30,4,64,7,1,12
+S1540,Dr. Phillips High,Economics,37,4,63,17,2,12
+S1541,Windermere High,Geometry,48,5,79,9,2,10
+S1542,West Orange High,English 4,47,20,84,3,1,12
+S1543,Oak Ridge High,U.S. History,74,10,68,5,1,11
+S1544,Windermere High,Economics,53,2,52,13,3,11
+S1545,East River High,World History,28,8,77,6,2,10
+S1546,Boone High,Algebra 1,70,16,74,1,3,9
+S1547,Oak Ridge High,English 3,39,10,90,2,1,11
+S1548,Boone High,Geometry,94,16,97,4,2,12
+S1549,Timber Creek High,Geometry,75,23,79,0,1,12
+S1550,Innovation High,Geometry,51,18,91,0,1,10
+S1551,Winter Park High,Algebra 2,49,21,73,4,2,11
+S1552,Edgewater High,Economics,68,16,81,4,2,12
+S1553,Apopka High,Economics,75,17,76,3,1,12
+S1554,Boone High,Algebra 2,36,6,76,9,2,12
+S1555,Colonial High,Algebra 2,59,22,84,4,1,12
+S1556,University High,Algebra 1,93,14,91,1,2,9
+S1557,Lake Buena Vista High,Economics,36,3,62,24,3,11
+S1558,Winter Park High,Biology,44,20,88,1,3,9
+S1559,Timber Creek High,Biology,19,11,67,3,1,10
+S1560,Innovation High,Geometry,60,0,62,25,2,12
+S1561,Boone High,English 4,53,4,73,8,2,12
+S1562,Lake Buena Vista High,English 4,50,7,78,10,1,12
+S1563,Jones High,World History,61,14,72,1,1,10
+S1564,Evans High,Government,77,14,88,0,3,12
+S1565,Ocoee High,Economics,26,1,52,15,1,12
+S1566,Freedom High,Geometry,91,9,96,4,2,12
+S1567,University High,Algebra 2,33,22,79,2,1,11
+S1568,Innovation High,English 1,96,14,95,5,2,9
+S1569,Winter Park High,Algebra 1,29,2,44,17,1,9
+S1570,Edgewater High,Biology,25,5,67,10,3,10
+S1571,Horizon High,Government,80,10,68,5,1,12
+S1572,Winter Park High,Geometry,92,12,74,1,1,10
+S1573,Ocoee High,Biology,50,11,71,5,4,10
+S1574,Horizon High,Biology,89,10,83,3,2,10
+S1575,Timber Creek High,Economics,85,23,71,3,1,12
+S1576,Oak Ridge High,Geometry,79,10,80,6,2,12
+S1577,Cypress Creek High,Economics,59,23,100,0,2,11
+S1578,Jones High,English 2,44,17,71,1,2,10
+S1579,West Orange High,English 3,40,15,85,2,1,11
+S1580,Oak Ridge High,English 4,56,8,75,6,2,12
+S1581,Lake Buena Vista High,U.S. History,49,0,50,19,2,11
+S1582,Freedom High,Biology,95,15,76,3,1,10
+S1583,Evans High,Government,67,13,92,4,3,12
+S1584,Evans High,English 1,27,4,63,3,1,9
+S1585,Wekiva High,Government,28,4,66,3,2,12
+S1586,Edgewater High,English 3,47,13,71,4,2,11
+S1587,Colonial High,World History,32,11,72,6,2,10
+S1588,East River High,Algebra 2,2,4,51,8,1,11
+S1589,University High,English 2,18,4,70,7,1,10
+S1590,Evans High,Biology,91,11,89,5,1,10
+S1591,Colonial High,English 3,3,5,69,21,4,11
+S1592,Cypress Creek High,English 1,77,7,63,4,2,9
+S1593,Winter Park High,Government,48,6,69,9,1,12
+S1594,Wekiva High,English 4,60,10,93,1,1,12
+S1595,Olympia High,English 3,39,6,63,22,1,11
+S1596,Freedom High,Algebra 2,27,10,63,5,1,12
+S1597,Cypress Creek High,Economics,18,8,73,5,1,12
+S1598,Timber Creek High,Geometry,62,20,97,3,2,12
+S1599,Boone High,Algebra 1,74,11,98,3,1,9
+S1600,Apopka High,English 4,60,5,51,13,3,12
+S1601,West Orange High,Government,32,11,79,2,3,12
+S1602,Horizon High,English 3,12,1,47,16,4,11
+S1603,Innovation High,English 3,54,0,55,13,2,11
+S1604,Dr. Phillips High,Economics,69,6,67,7,1,12
+S1605,Horizon High,Geometry,37,17,78,2,1,12
+S1606,Edgewater High,Algebra 2,56,4,53,18,1,12
+S1607,Ocoee High,U.S. History,50,7,62,3,3,11
+S1608,Dr. Phillips High,Economics,37,1,62,10,1,12
+S1609,Winter Park High,English 4,33,21,82,1,1,12
+S1610,Lake Nona High,U.S. History,99,14,91,5,3,11
+S1611,Freedom High,U.S. History,38,17,86,4,1,11
+S1612,Colonial High,World History,30,7,63,8,2,10
+S1613,Ocoee High,English 4,30,17,91,4,1,12
+S1614,Colonial High,World History,40,8,77,9,1,9
+S1615,Colonial High,Biology,26,5,81,4,2,9
+S1616,Innovation High,Algebra 2,100,11,78,3,1,12
+S1617,Ocoee High,World History,45,8,64,3,1,9
+S1618,Lake Buena Vista High,Algebra 2,37,9,70,4,1,12
+S1619,Jones High,World History,67,10,64,5,1,9
+S1620,Winter Park High,English 4,45,16,89,1,1,12
+S1621,Evans High,Government,49,22,72,3,2,12
+S1622,Windermere High,Biology,56,6,68,30,1,10
+S1623,Innovation High,English 1,56,8,80,6,2,9
+S1624,Boone High,Algebra 1,84,13,95,1,3,9
+S1625,Jones High,Algebra 2,65,11,77,4,1,12
+S1626,Cypress Creek High,Algebra 2,97,17,92,5,1,12
+S1627,Wekiva High,Geometry,52,4,65,8,2,10
+S1628,Lake Nona High,Biology,63,11,88,2,1,10
+S1629,Dr. Phillips High,Biology,43,4,43,22,1,10
+S1630,Boone High,English 2,68,12,98,3,1,10
+S1631,Windermere High,Government,90,11,87,5,1,12
+S1632,Jones High,Geometry,49,8,67,7,2,12
+S1633,Evans High,English 4,59,19,74,2,3,12
+S1634,Evans High,Geometry,77,10,82,7,2,10
+S1635,Cypress Creek High,English 3,63,1,48,8,1,11
+S1636,Windermere High,Economics,44,15,99,1,1,11
+S1637,Innovation High,English 4,36,11,64,8,1,12
+S1638,Lake Buena Vista High,Economics,55,11,67,5,1,12
+S1639,Oak Ridge High,Government,5,0,54,25,2,12
+S1640,Colonial High,Economics,81,7,68,3,2,12
+S1641,Apopka High,Government,95,9,91,5,1,12
+S1642,Colonial High,English 1,45,23,93,2,1,9
+S1643,Oak Ridge High,World History,45,1,49,24,1,9
+S1644,Innovation High,Algebra 2,54,21,77,0,1,12
+S1645,Lake Nona High,English 4,25,0,62,12,1,12
+S1646,Boone High,Algebra 2,63,0,67,10,2,11
+S1647,Edgewater High,Algebra 1,38,22,92,1,1,9
+S1648,East River High,Geometry,41,10,97,1,2,12
+S1649,Lake Nona High,English 2,51,5,73,3,3,10
+S1650,Lake Buena Vista High,Geometry,38,9,66,9,1,12
+S1651,West Orange High,Algebra 2,38,18,81,3,2,11
+S1652,Evans High,English 3,54,19,73,0,2,11
+S1653,Lake Buena Vista High,Biology,25,22,76,0,1,10
+S1654,University High,English 2,73,19,74,3,1,10
+S1655,Evans High,U.S. History,33,7,82,7,1,11
+S1656,Horizon High,U.S. History,82,10,67,10,1,11
+S1657,Apopka High,Biology,72,21,86,3,3,10
+S1658,Boone High,Algebra 2,55,19,72,4,3,12
+S1659,Jones High,World History,61,4,64,7,1,10
+S1660,Colonial High,English 1,64,11,80,0,1,9
+S1661,Freedom High,U.S. History,35,22,89,1,1,11
+S1662,Freedom High,Economics,43,24,88,1,1,12
+S1663,Cypress Creek High,Biology,45,15,86,4,2,10
+S1664,Boone High,Algebra 2,48,6,68,7,1,11
+S1665,Cypress Creek High,Economics,53,2,52,9,1,11
+S1666,Lake Nona High,English 1,86,16,75,2,1,9
+S1667,Freedom High,Algebra 2,93,14,78,0,2,11
+S1668,Windermere High,Algebra 1,69,10,89,3,3,9
+S1669,West Orange High,U.S. History,86,10,82,0,1,11
+S1670,Winter Park High,Biology,78,15,88,2,1,9
+S1671,Jones High,Algebra 1,21,5,52,11,1,9
+S1672,Olympia High,U.S. History,65,11,95,0,1,11
+S1673,Timber Creek High,Economics,68,22,80,1,2,12
+S1674,Innovation High,English 2,47,0,70,21,3,10
+S1675,Wekiva High,Government,54,5,41,13,1,12
+S1676,Jones High,Economics,71,7,78,6,2,11
+S1677,Oak Ridge High,Biology,78,18,92,3,1,9
+S1678,Olympia High,U.S. History,52,23,74,0,2,11
+S1679,East River High,English 1,1,2,68,25,1,9
+S1680,Winter Park High,English 4,48,10,64,9,2,12
+S1681,Horizon High,English 4,83,4,70,7,1,12
+S1682,Lake Nona High,Algebra 2,30,10,77,1,1,12
+S1683,Timber Creek High,English 3,68,20,100,1,1,11
+S1684,Timber Creek High,English 4,70,22,85,2,1,12
+S1685,Olympia High,World History,56,8,65,5,1,9
+S1686,Apopka High,Algebra 2,35,2,55,15,2,12
+S1687,Cypress Creek High,English 2,47,10,82,3,1,10
+S1688,Lake Buena Vista High,English 1,62,5,78,3,1,9
+S1689,Apopka High,Algebra 2,77,6,62,10,2,11
+S1690,Oak Ridge High,English 2,2,6,58,23,1,10
+S1691,Boone High,World History,82,6,72,10,2,9
+S1692,Edgewater High,Algebra 2,75,16,84,4,1,12
+S1693,Oak Ridge High,Government,56,13,83,4,2,12
+S1694,Ocoee High,Algebra 2,93,7,74,0,1,11
+S1695,Innovation High,Algebra 1,59,5,57,30,1,9
+S1696,Innovation High,Geometry,84,10,74,9,2,12
+S1697,Timber Creek High,Government,57,22,78,3,3,12
+S1698,West Orange High,Biology,65,6,59,30,2,10
+S1699,Cypress Creek High,World History,71,21,83,2,1,9
+S1700,Oak Ridge High,World History,79,4,76,3,1,9
+S1701,Lake Nona High,Biology,28,4,63,23,1,10
+S1702,Wekiva High,English 3,92,9,79,3,1,11
+S1703,Apopka High,Algebra 2,92,8,72,2,2,11
+S1704,Ocoee High,English 4,56,21,83,2,1,12
+S1705,Dr. Phillips High,World History,88,13,79,1,2,9
+S1706,Windermere High,World History,54,6,67,12,1,9
+S1707,Dr. Phillips High,Economics,13,7,80,3,1,12
+S1708,Freedom High,World History,85,11,77,2,3,9
+S1709,Evans High,Biology,39,16,79,1,3,10
+S1710,Horizon High,Geometry,76,23,71,1,1,10
+S1711,Innovation High,Algebra 2,44,10,71,0,3,12
+S1712,Colonial High,Economics,41,11,79,3,3,12
+S1713,Olympia High,English 1,35,4,58,8,1,9
+S1714,Boone High,Algebra 2,43,8,71,4,1,12
+S1715,Olympia High,Economics,60,11,64,10,1,12
+S1716,East River High,Economics,47,4,75,8,2,12
+S1717,Colonial High,Biology,74,19,87,3,1,9
+S1718,Edgewater High,World History,31,18,78,1,1,10
+S1719,Ocoee High,Economics,73,8,78,3,1,12
+S1720,West Orange High,Geometry,30,11,98,4,1,10
+S1721,Boone High,Biology,43,5,81,3,3,9
+S1722,Lake Buena Vista High,English 3,92,19,89,2,1,11
+S1723,Olympia High,Economics,49,1,52,12,1,12
+S1724,Windermere High,Algebra 2,90,10,81,1,2,12
+S1725,East River High,World History,76,23,91,0,1,10
+S1726,Boone High,English 4,24,5,63,24,3,12
+S1727,Oak Ridge High,Government,65,22,79,2,1,12
+S1728,Timber Creek High,Algebra 2,70,18,78,1,1,11
+S1729,Oak Ridge High,English 2,64,11,97,4,1,10
+S1730,West Orange High,Algebra 1,79,15,77,1,1,9
+S1731,Dr. Phillips High,Geometry,26,21,89,3,1,10
+S1732,Lake Buena Vista High,Economics,83,17,71,0,3,12
+S1733,Freedom High,English 1,98,7,79,5,2,9
+S1734,Wekiva High,Biology,84,20,70,3,1,10
+S1735,Evans High,English 3,41,24,92,0,2,11
+S1736,Lake Buena Vista High,English 2,31,16,70,1,2,10
+S1737,Ocoee High,Biology,80,10,65,3,1,9
+S1738,West Orange High,World History,98,6,73,2,3,9
+S1739,Horizon High,Government,90,20,72,4,1,12
+S1740,Freedom High,Algebra 1,92,18,87,4,2,9
+S1741,Horizon High,U.S. History,64,17,77,2,1,11
+S1742,Evans High,Government,97,20,77,3,1,12
+S1743,Edgewater High,Algebra 1,51,8,75,7,1,9
+S1744,West Orange High,English 4,30,0,51,18,2,12
+S1745,Boone High,Algebra 2,54,14,92,1,1,11
+S1746,University High,Geometry,60,9,64,6,2,12
+S1747,University High,Algebra 2,52,2,70,28,1,11
+S1748,Wekiva High,World History,76,15,97,4,1,9
+S1749,Jones High,Geometry,38,5,80,9,1,12
+S1750,Jones High,Economics,49,20,71,1,1,11
+S1751,Apopka High,Economics,66,23,91,2,1,12
+S1752,Wekiva High,English 2,98,13,74,4,1,10
+S1753,Ocoee High,Biology,15,6,76,7,3,9
+S1754,Evans High,English 2,48,5,45,10,2,10
+S1755,Olympia High,Algebra 1,31,6,40,11,2,9
+S1756,Lake Nona High,Algebra 2,7,2,41,24,1,11
+S1757,Windermere High,U.S. History,14,7,71,8,1,11
+S1758,Apopka High,English 3,84,17,83,4,2,11
+S1759,Lake Buena Vista High,Geometry,86,16,92,3,1,10
+S1760,Ocoee High,Geometry,53,15,79,2,2,12
+S1761,West Orange High,Biology,20,4,59,17,1,9
+S1762,Oak Ridge High,English 4,23,11,72,8,3,12
+S1763,Boone High,English 4,50,4,52,12,1,12
+S1764,Oak Ridge High,Economics,19,4,44,27,1,12
+S1765,Olympia High,Biology,55,4,70,7,1,9
+S1766,Lake Nona High,Government,26,15,96,3,2,12
+S1767,Dr. Phillips High,World History,84,12,88,2,2,10
+S1768,Lake Buena Vista High,Algebra 2,60,14,82,2,2,12
+S1769,University High,Economics,66,15,98,2,1,12
+S1770,Windermere High,Biology,68,13,73,4,1,10
+S1771,Timber Creek High,Algebra 1,2,0,57,8,1,9
+S1772,Oak Ridge High,Algebra 2,8,5,44,16,2,12
+S1773,University High,Biology,57,6,68,5,1,9
+S1774,University High,Government,50,1,57,15,1,12
+S1775,Olympia High,Algebra 2,63,11,100,3,1,12
+S1776,Winter Park High,English 3,4,6,51,8,1,11
+S1777,East River High,Geometry,37,5,70,15,1,12
+S1778,Ocoee High,Economics,95,17,94,0,1,12
+S1779,Boone High,English 2,89,16,85,2,2,10
+S1780,Olympia High,U.S. History,64,18,98,2,2,11
+S1781,Dr. Phillips High,Biology,31,13,93,3,1,10
+S1782,Innovation High,English 2,100,7,100,2,1,10
+S1783,Cypress Creek High,English 1,57,17,98,3,1,9
+S1784,Edgewater High,Economics,30,24,72,1,3,12
+S1785,Jones High,U.S. History,75,15,78,0,1,11
+S1786,Horizon High,English 2,65,24,89,1,2,10
+S1787,Olympia High,Economics,36,2,70,16,4,11
+S1788,Apopka High,Economics,79,4,74,10,2,12
+S1789,Lake Buena Vista High,U.S. History,45,18,75,3,1,11
+S1790,Cypress Creek High,Algebra 2,99,18,76,1,1,11
+S1791,Wekiva High,U.S. History,10,2,54,24,1,11
+S1792,Olympia High,Biology,84,11,82,4,2,9
+S1793,Dr. Phillips High,Geometry,19,0,51,26,2,12
+S1794,Wekiva High,English 4,7,4,52,8,1,12
+S1795,Timber Creek High,U.S. History,36,16,77,1,2,11
+S1796,West Orange High,English 3,33,11,66,6,1,11
+S1797,West Orange High,Economics,46,2,69,12,3,11
+S1798,Ocoee High,English 1,98,7,82,4,1,9
+S1799,Lake Nona High,English 4,71,5,63,7,4,12
+S1800,Ocoee High,English 1,82,16,95,0,2,9
+S1801,Wekiva High,World History,47,8,65,8,2,9
+S1802,Windermere High,English 1,69,16,84,3,3,9
+S1803,Evans High,Geometry,44,12,100,1,1,12
+S1804,East River High,English 3,40,8,62,8,1,11
+S1805,Lake Nona High,Algebra 1,94,9,89,0,3,9
+S1806,Oak Ridge High,Economics,42,15,91,3,1,11
+S1807,Edgewater High,Biology,62,5,65,8,3,9
+S1808,Olympia High,Algebra 1,55,2,49,12,4,9
+S1809,Edgewater High,English 1,58,4,62,3,3,9
+S1810,Colonial High,English 3,73,9,62,10,3,11
+S1811,Apopka High,Geometry,77,21,81,0,2,12
+S1812,Jones High,Geometry,32,13,77,0,2,12
+S1813,Innovation High,Algebra 1,77,10,67,8,2,9
+S1814,Jones High,World History,60,12,97,0,2,10
+S1815,Boone High,Geometry,84,23,72,1,1,12
+S1816,Boone High,Algebra 1,31,5,65,19,1,9
+S1817,Cypress Creek High,English 4,82,17,93,2,1,12
+S1818,Timber Creek High,Government,23,6,64,6,2,12
+S1819,Boone High,Biology,43,23,99,3,3,10
+S1820,Cypress Creek High,English 3,78,17,91,4,1,11
+S1821,Apopka High,English 1,63,3,43,30,2,9
+S1822,Timber Creek High,World History,95,10,70,1,3,9
+S1823,Winter Park High,English 3,42,7,76,9,1,11
+S1824,Dr. Phillips High,Government,85,12,73,0,1,12
+S1825,Ocoee High,Algebra 2,93,14,78,3,2,11
+S1826,Oak Ridge High,Algebra 2,37,4,42,19,2,12
+S1827,Windermere High,English 1,35,5,66,25,1,9
+S1828,East River High,Biology,73,9,63,4,1,9
+S1829,Evans High,English 3,59,16,93,4,3,11
+S1830,Windermere High,Algebra 2,59,6,74,3,1,11
+S1831,Lake Buena Vista High,Economics,37,11,64,6,1,11
+S1832,Jones High,Algebra 2,45,5,64,30,2,11
+S1833,Horizon High,Algebra 2,89,10,99,1,2,11
+S1834,Evans High,World History,87,22,94,3,1,9
+S1835,Innovation High,Geometry,62,0,47,22,2,12
+S1836,Lake Buena Vista High,Algebra 2,90,17,81,3,2,11
+S1837,Lake Nona High,Algebra 1,32,11,98,1,1,9
+S1838,Edgewater High,Economics,39,11,90,2,2,12
+S1839,Timber Creek High,Algebra 2,19,7,80,7,1,12
+S1840,Winter Park High,Geometry,48,22,84,2,2,12
+S1841,Boone High,World History,57,2,67,9,1,9
+S1842,University High,Economics,32,5,49,9,1,12
+S1843,Lake Nona High,U.S. History,73,8,74,8,1,11
+S1844,Boone High,English 2,35,9,79,10,1,10
+S1845,Horizon High,Geometry,89,22,75,1,2,10
+S1846,Lake Nona High,Economics,75,24,73,2,3,12
+S1847,Evans High,Geometry,78,5,63,8,3,12
+S1848,Timber Creek High,U.S. History,75,7,63,9,3,11
+S1849,Colonial High,English 1,76,9,66,4,1,9
