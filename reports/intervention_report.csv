@@ -1,0 +1,15 @@
+student_id,school,course,grade_level,weekly_progress,grade,days_since_login,courses_remaining,priority_score
+S1440,Westfield High School,U.S. History,12,1,50,18,2,100
+S1145,Lakeview High School,World History,12,0,51,17,2,100
+S1517,East River High School,English 4,12,0,56,17,2,100
+S1394,Westfield High School,Algebra 1,12,3,56,15,4,100
+S1372,Cypress Bay High School,English 3,12,2,51,18,3,100
+S1152,Horizon High School,Algebra 1,12,4,56,17,2,100
+S1267,East River High School,Algebra 2,12,7,52,18,2,100
+S1233,East River High School,Biology,12,1,62,17,2,100
+S1087,Riverside High School,English 3,12,3,70,15,2,90
+S1036,Lakeview High School,World History,12,7,48,15,1,90
+S1392,Lakeview High School,U.S. History,12,6,61,15,1,90
+S1178,Innovation High School,Government,12,4,43,26,1,90
+S1232,Westfield High School,Government,12,5,47,17,1,90
+S1260,Innovation High School,English 3,12,10,53,14,2,90

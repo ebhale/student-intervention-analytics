@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Intervention Analytics</title>
+    <style>
+        :root {
+            --navy: #1c2b3f;
+            --navy-light: #2c4160;
+            --accent: #3b6ea5;
+            --bg: #eef1f5;
+            --card: #ffffff;
+            --border: #dfe3e8;
+            --text: #2b333d;
+            --text-muted: #6b7684;
+            --success-bg: #e6f4ea;
+            --success-border: #93c9a0;
+            --success-text: #256b3a;
+            --error-bg: #fdecea;
+            --error-border: #e6a4a0;
+            --error-text: #a3312a;
+            --priority-high: #c0392b;
+            --priority-mid: #b8860b;
+            --priority-low: #2f7a4d;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 32px 40px 60px;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+        }
+
+        header.page-header {
+            margin-bottom: 28px;
+        }
+
+        h1 {
+            color: var(--navy);
+            font-size: 1.7rem;
+            font-weight: 700;
+            margin: 0 0 4px;
+            letter-spacing: -0.01em;
+        }
+
+        .page-subtitle {
+            color: var(--text-muted);
+            font-size: 0.92rem;
+            margin: 0;
+        }
+
+        .card {
+            background-color: var(--card);
+            padding: 22px 24px;
+            margin-bottom: 22px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+        }
+
+        .card h2 {
+            margin: 0 0 6px;
+            font-size: 1.05rem;
+            color: var(--navy);
+            font-weight: 600;
+        }
+
+        .card .helper-text {
+            margin: 10px 0 0;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 14px 18px;
+        }
+
+        label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-right: -8px;
+        }
+
+        select,
+        input[type="number"],
+        input[type="file"] {
+            padding: 9px 12px;
+            font-size: 0.9rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background-color: #fff;
+            color: var(--text);
+        }
+
+        select:focus,
+        input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(59, 110, 165, 0.15);
+        }
+
+        button {
+            padding: 9px 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #fff;
+            background-color: var(--navy);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.15s ease;
+        }
+
+        button:hover {
+            background-color: var(--navy-light);
+        }
+
+        .message {
+            padding: 13px 16px;
+            margin-bottom: 22px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            border: 1px solid transparent;
+        }
+
+        .success {
+            background-color: var(--success-bg);
+            border-color: var(--success-border);
+            color: var(--success-text);
+        }
+
+        .error {
+            background-color: var(--error-bg);
+            border-color: var(--error-border);
+            color: var(--error-text);
+        }
+
+        .summary {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+            font-size: 0.92rem;
+            color: var(--text-muted);
+        }
+
+        .summary strong {
+            font-size: 1.2rem;
+            color: var(--navy);
+        }
+
+        .table-wrapper {
+            background-color: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 0.88rem;
+        }
+
+        th {
+            background-color: var(--navy);
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.72rem;
+            letter-spacing: 0.04em;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid var(--border);
+        }
+
+        tbody tr:last-child {
+            border-bottom: none;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f7f9fb;
+        }
+
+        tbody tr:hover {
+            background-color: #eef3f9;
+        }
+
+        .priority-score {
+            font-weight: 700;
+        }
+
+        .priority-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+
+        .priority-badge.high {
+            background-color: rgba(192, 57, 43, 0.12);
+            color: var(--priority-high);
+        }
+
+        .priority-badge.mid {
+            background-color: rgba(184, 134, 11, 0.14);
+            color: var(--priority-mid);
+        }
+
+        .priority-badge.low {
+            background-color: rgba(47, 122, 77, 0.12);
+            color: var(--priority-low);
+        }
+
+        @media (max-width: 720px) {
+            body {
+                padding: 20px;
+            }
+
+            form {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .table-wrapper {
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="page-header">
+        <h1>Student Intervention Analytics</h1>
+        <p class="page-subtitle">Monitor at-risk students and prioritize outreach based on engagement data.</p>
+    </header>
+
+    <div class="card upload-panel">
+        <h2>Upload New Student Data</h2>
+        <form
+            action="{{ url_for('upload_csv') }}"
+            method="POST"
+            enctype="multipart/form-data"
+        >
+            <input
+                type="file"
+                name="student_file"
+                accept=".csv"
+                required
+            >
+            <button type="submit">Upload and Update Dashboard</button>
+        </form>
+        <p class="helper-text">The CSV must use the same columns as the current students.csv file.</p>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+            <div class="message {{ category }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endwith %}
+
+    <div class="card controls">
+        <form method="GET">
+            <label for="grade_level">Grade level</label>
+            <select name="grade_level" id="grade_level">
+                <option value="all"
+                    {% if selected_grade_level == "all" %}selected{% endif %}>
+                    All grades
+                </option>
+                <option value="9"
+                    {% if selected_grade_level == "9" %}selected{% endif %}>
+                    Grade 9
+                </option>
+                <option value="10"
+                    {% if selected_grade_level == "10" %}selected{% endif %}>
+                    Grade 10
+                </option>
+                <option value="11"
+                    {% if selected_grade_level == "11" %}selected{% endif %}>
+                    Grade 11
+                </option>
+                <option value="12"
+                    {% if selected_grade_level == "12" %}selected{% endif %}>
+                    Grade 12
+                </option>
+            </select>
+
+            <label for="minimum_score">Minimum priority score</label>
+            <input
+                type="number"
+                id="minimum_score"
+                name="minimum_score"
+                value="{{ minimum_score }}"
+                min="0"
+                step="5"
+            >
+
+            <button type="submit">Apply Filters</button>
+        </form>
+    </div>
+
+    <div class="card summary">
+        <strong>{{ student_count }}</strong>
+        <span>student records meet the selected criteria</span>
+    </div>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>School</th>
+                    <th>Course</th>
+                    <th>Grade Level</th>
+                    <th>Weekly Progress</th>
+                    <th>Grade</th>
+                    <th>Days Since Login</th>
+                    <th>Courses Remaining</th>
+                    <th>Priority Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in students %}
+                <tr>
+                    <td>{{ student[0] }}</td>
+                    <td>{{ student[1] }}</td>
+                    <td>{{ student[2] }}</td>
+                    <td>{{ student[3] }}</td>
+                    <td>{{ student[4] }}%</td>
+                    <td>{{ student[5] }}%</td>
+                    <td>{{ student[6] }}</td>
+                    <td>{{ student[7] }}</td>
+                    <td class="priority-score">
+                        <span class="priority-badge {% if student[8] >= 70 %}high{% elif student[8] >= 40 %}mid{% else %}low{% endif %}">
+                            {{ student[8] }}
+                        </span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
